@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Websites\\moneyprogo\\moneyprogo.csproj": {}
+    "D:\\Websites\\Moneyprogo\\moneyprogo\\moneyprogo.csproj": {}
   },
   "projects": {
-    "D:\\Websites\\moneyprogo\\moneyprogo.csproj": {
+    "D:\\Websites\\Moneyprogo\\moneyprogo\\moneyprogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Websites\\moneyprogo\\moneyprogo.csproj",
+        "projectUniqueName": "D:\\Websites\\Moneyprogo\\moneyprogo\\moneyprogo.csproj",
         "projectName": "moneyprogo",
-        "projectPath": "D:\\Websites\\moneyprogo\\moneyprogo.csproj",
+        "projectPath": "D:\\Websites\\Moneyprogo\\moneyprogo\\moneyprogo.csproj",
         "packagesPath": "C:\\Users\\somil lohani\\.nuget\\packages\\",
-        "outputPath": "D:\\Websites\\moneyprogo\\obj\\",
+        "outputPath": "D:\\Websites\\Moneyprogo\\moneyprogo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\somil lohani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
